@@ -6,7 +6,8 @@ services:
   plan: free
   envVars:
   - key: MONGO_URI
-    value: mongodb+srv://Hello_word:contraseñe2304@cluster0.a34mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    value: mongodb+srv://admin:contraseñe2304@cluster0.a34mx.mongodb.net/Hello_word?retryWrites=true&w=majority
+    
   region: oregon
   buildCommand: pip install -r requirements.txt
   startCommand: python app.py
